@@ -689,8 +689,6 @@ public class StandardWifiEntry extends WifiEntry {
             // Average speed is used to prevent speed label flickering from multiple APs.
             mSpeed = getAverageSpeedFromScanResults(mScoreCache, mTargetScanResults);
         }
-
-        updateWifiGenerationInfo(mTargetScanResults);
     }
 
     @WorkerThread
